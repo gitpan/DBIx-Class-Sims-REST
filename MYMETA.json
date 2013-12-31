@@ -1,0 +1,56 @@
+{
+   "abstract" : "unknown",
+   "author" : [
+      "Rob Kinyon <rob.kinyon@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Install version 1.06, CPAN::Meta::Converter version 2.131560",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "DBIx-Class-Sims-REST",
+   "no_index" : {
+      "directory" : [
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.59",
+            "Plack" : "1.0030",
+            "Test::DBIx::Class" : "0.01",
+            "Test::Deep" : "0.01",
+            "Test::Exception" : "0.21",
+            "Test::More" : "0.88",
+            "Test::Warn" : "0.01"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.59"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "DBIx::Class::Sims" : "0",
+            "Hash::Merge" : "0",
+            "JSON::XS" : "0",
+            "Plack::Request" : "0",
+            "perl" : "5.008"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.0.1",
+   "x_module_name" : "DBIx::Class::Sims::REST"
+}
