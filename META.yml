@@ -4,12 +4,10 @@ author:
   - 'Rob Kinyon <rob.kinyon@gmail.com>'
 build_requires:
   ExtUtils::MakeMaker: 6.59
-  Plack: 1.0030
+  Test::Cmd: 0.01
   Test::DBIx::Class: 0.01
   Test::Deep: 0.01
-  Test::Exception: 0.21
   Test::More: 0.88
-  Test::Warn: 0.01
 configure_requires:
   ExtUtils::MakeMaker: 6.59
 distribution_type: module
@@ -34,4 +32,4 @@ requires:
   perl: 5.8.0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.0.3
+version: 0.0.4

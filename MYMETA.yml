@@ -4,16 +4,14 @@ author:
   - 'Rob Kinyon <rob.kinyon@gmail.com>'
 build_requires:
   ExtUtils::MakeMaker: 6.59
-  Plack: 1.0030
+  Test::Cmd: 0.01
   Test::DBIx::Class: 0.01
   Test::Deep: 0.01
-  Test::Exception: 0.21
   Test::More: 0.88
-  Test::Warn: 0.01
 configure_requires:
-  ExtUtils::MakeMaker: 0
+  ExtUtils::MakeMaker: 6.59
 dynamic_config: 0
-generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.131560'
+generated_by: 'Module::Install version 1.06, CPAN::Meta::Converter version 2.131560'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -21,8 +19,8 @@ meta-spec:
 name: DBIx-Class-Sims-REST
 no_index:
   directory:
-    - t
     - inc
+    - t
 requires:
   DBIx::Class::Sims: 0
   Hash::Merge: 0
@@ -30,4 +28,7 @@ requires:
   Plack::Request: 0
   Web::Simple: 0
   perl: 5.008
-version: v0.0.3
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.0.4
+x_module_name: DBIx::Class::Sims::REST
