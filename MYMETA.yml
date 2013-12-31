@@ -28,5 +28,6 @@ requires:
   Hash::Merge: 0
   JSON::XS: 0
   Plack::Request: 0
+  Web::Simple: 0
   perl: 5.008
-version: v0.0.2
+version: v0.0.3
