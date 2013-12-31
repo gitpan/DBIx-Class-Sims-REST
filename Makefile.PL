@@ -17,6 +17,5 @@ requires 'Web::Simple';
 test_requires 'Test::DBIx::Class' => '0.01';
 test_requires 'Test::More'        => '0.88'; # done_testing
 test_requires 'Test::Deep'        => '0.01';
-test_requires 'Test::Cmd'         => '0.01';
  
 WriteAll;

@@ -4,7 +4,6 @@ author:
   - 'Rob Kinyon <rob.kinyon@gmail.com>'
 build_requires:
   ExtUtils::MakeMaker: 6.59
-  Test::Cmd: 0.01
   Test::DBIx::Class: 0.01
   Test::Deep: 0.01
   Test::More: 0.88
