@@ -4,6 +4,8 @@ author:
   - 'Rob Kinyon <rob.kinyon@gmail.com>'
 build_requires:
   ExtUtils::MakeMaker: 6.59
+  HTTP::Request: 0.01
+  LWP::UserAgent: 0.01
   Test::DBIx::Class: 0.01
   Test::Deep: 0.01
   Test::More: 0.88
@@ -29,5 +31,5 @@ requires:
   perl: 5.008
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.0.4
+version: 0.0.5
 x_module_name: DBIx::Class::Sims::REST
