@@ -4,7 +4,7 @@
       "Rob Kinyon <rob.kinyon@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Module::Install version 1.06, CPAN::Meta::Converter version 2.131560",
+   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.131560",
    "license" : [
       "perl_5"
    ],
@@ -15,6 +15,7 @@
    "name" : "DBIx-Class-Sims-REST",
    "no_index" : {
       "directory" : [
+         "t",
          "inc"
       ]
    },
@@ -32,7 +33,7 @@
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.59"
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "runtime" : {
@@ -46,11 +47,5 @@
       }
    },
    "release_status" : "stable",
-   "resources" : {
-      "license" : [
-         "http://dev.perl.org/licenses/"
-      ]
-   },
-   "version" : "0.0.1",
-   "x_module_name" : "DBIx::Class::Sims::REST"
+   "version" : "v0.0.2"
 }
