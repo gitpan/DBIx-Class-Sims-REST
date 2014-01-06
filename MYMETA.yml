@@ -29,4 +29,4 @@ requires:
   Plack::Request: 0
   Web::Simple: 0
   perl: 5.008
-version: 0.000007
+version: 0.000008
